@@ -254,7 +254,6 @@ body {
 
 .form-container .form-wrapper .forms .form .btns-cont {
   margin-top: 30px;
-  text-align: center;
   position: relative;
 }
 
@@ -454,4 +453,12 @@ body {
 
 .align-items-center {
   align-items: center;
+}
+
+.form-container .table-wrapper table thead .table_header th {
+  vertical-align: top !important;
+}
+
+.form-container .form-wrapper input[type=date] {
+  line-height: 20px;
 }
