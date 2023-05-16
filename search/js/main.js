@@ -1,4 +1,4 @@
-use strict";
+"use strict";
 
 //---------- ©2018 e-consulting ----------//
 if (typeof (econsulting) == "undefined") { var econsulting = {__namespace: true} }
