@@ -130,7 +130,8 @@
                         </div>
                         <div class="input-cont">
                             <div class="row">
-                                <div class="col-md-4"><label for="middleName">По батькові</label></div>
+                                <div class="col-md-4">
+                                    <label for="middleName">По батькові</label></div>
                                 <div class="col-md-8">
                                     <div class="input-col">
                                         <input type="text" id="middleName" name="PrimeAccountNumber" placeholder=""
@@ -177,74 +178,146 @@
 
             <!--форма пошуку ФОП (Contact)-->
             <form class="form form-contact" name="contact">
-                <div class="input-conts">
-                    <div class="input-cont">
-                        <label for="contact-ipn">ІПН</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-ipn" name="IPN" placeholder="" autocomplete="off">
-                            <p class="error-msg">Доступна кількість символів від 1 до 10, при пошуку враховуються тільки
-                                числа від 0 до 9</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="input-conts">
+                            <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-ipn">ІПН</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-ipn" name="IPN" placeholder=""
+                                                   autocomplete="off">
+                                            <p class="error-msg">Доступна кількість символів від 1 до 10, при пошуку
+                                                враховуються тільки
+                                                числа від 0 до 9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-surname">Прізвище</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-surname" name="LastName" placeholder=""
+                                                   autocomplete="off">
+                                            <p class="error-msg">Доступна кількість символів від 2 до 200, при пошуку
+                                                враховуються
+                                                тільки: А-я, A-z, 0-9, -, “,”, `, ’, «, », :, ;, пробіл</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-rnk">РНК</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-rnk" name="RNK" placeholder=""
+                                                   autocomplete="off">
+                                            <p class="error-msg">Доступна кількість символів від 2 до 32, при пошуку
+                                                враховуються тільки
+                                                числа від 0 до 9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-name">Ім'я</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-name" name="FirstName" placeholder=""
+                                                   autocomplete="off">
+                                            <p class="error-msg">Доступна кількість символів від 2 до 50, при пошуку
+                                                враховуються
+                                                тільки: А-я, A-z, 0-9, -, “,”, `, ’, «, », :, ;, пробіл</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="input-cont">
-                        <label for="contact-surname">Прізвище</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-surname" name="LastName" placeholder="" autocomplete="off">
-                            <p class="error-msg">Доступна кількість символів від 2 до 200, при пошуку враховуються
-                                тільки: А-я, A-z, 0-9, -, “,”, `, ’, «, », :, ;, пробіл</p>
-                        </div>
-                    </div>
-                    <div class="input-cont">
-                        <label for="contact-rnk">РНК</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-rnk" name="RNK" placeholder="" autocomplete="off">
-                            <p class="error-msg">Доступна кількість символів від 2 до 32, при пошуку враховуються тільки
-                                числа від 0 до 9</p>
-                        </div>
-                    </div>
-                    <div class="input-cont">
-                        <label for="contact-name">Ім'я</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-name" name="FirstName" placeholder="" autocomplete="off">
-                            <p class="error-msg">Доступна кількість символів від 2 до 50, при пошуку враховуються
-                                тільки: А-я, A-z, 0-9, -, “,”, `, ’, «, », :, ;, пробіл</p>
-                        </div>
-                    </div>
-                    <div class="input-cont">
-                        <label for="contact-phone">Номер телефону</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-phone" name="PhoneNumber" placeholder=""
-                                   autocomplete="off" class="telephone-mask">
-                            <p class="error-msg">Доступна кількість символів від 5 до 50, при пошуку враховуються тільки
-                                числа 0-9, рекомендований формат введення номеру телефону: 380670000000</p>
-                        </div>
-                    </div>
-                    <div class="input-cont">
-                        <label for="contact-series-passport">Серія паспорту</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-series-passport" name="PassportSeries" placeholder=""
-                                   autocomplete="off">
-                            <p class="error-msg">Доступна кількість символів від 1 до 23, при пошуку враховуються
-                                тільки: А-я, A-z, 0-9, -, пробіл</p>
-                        </div>
-                    </div>
-                    <div class="input-cont">
-                        <label for="contact-account">Номер рахунку</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-account" name="AccountNumber" placeholder=""
-                                   autocomplete="off">
-                            <p class="error-msg">Доступна кількість символів від 5 до 100, при пошуку враховуються
-                                тільки числа 0-9</p>
-                        </div>
-                    </div>
-                    <div class="input-cont">
-                        <label for="contact-number-passport">Номер паспорту / ID паспорт</label>
-                        <div class="input-col">
-                            <input type="text" id="contact-number-passport" name="PassportNumber" placeholder=""
-                                   autocomplete="off">
-                            <p class="error-msg">Доступна кількість символів від 2 до 20, при пошуку враховуються
-                                тільки: А-я, A-z, 0-9, -, пробіл </p>
-                        </div>
+                    <div class="col-md-4">
+                        <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-phone">Номер телефону</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-phone" name="PhoneNumber" placeholder=""
+                                                   autocomplete="off" class="telephone-mask">
+                                            <p class="error-msg">Доступна кількість символів від 5 до 50, при пошуку
+                                                враховуються тільки
+                                                числа 0-9, рекомендований формат введення номеру телефону:
+                                                380670000000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-series-passport">Серія паспорту</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-series-passport" name="PassportSeries"
+                                                   placeholder=""
+                                                   autocomplete="off">
+                                            <p class="error-msg">Доступна кількість символів від 1 до 23, при пошуку
+                                                враховуються
+                                                тільки: А-я, A-z, 0-9, -, пробіл</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-account">Номер рахунку</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-account" name="AccountNumber"
+                                                   placeholder=""
+                                                   autocomplete="off">
+                                            <p class="error-msg">Доступна кількість символів від 5 до 100, при
+                                                пошуку
+                                                враховуються
+                                                тільки числа 0-9</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-cont">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="contact-number-passport">Номер паспорту / ID паспорт</label>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="input-col">
+                                            <input type="text" id="contact-number-passport" name="PassportNumber"
+                                                   placeholder=""
+                                                   autocomplete="off">
+                                            <p class="error-msg">Доступна кількість символів від 2 до 20, при пошуку
+                                                враховуються
+                                                тільки: А-я, A-z, 0-9, -, пробіл </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
                 <div class="btns-cont">
@@ -276,7 +349,7 @@
                     <th data-column-id="StatusCode">Реєстраційний номер</th>
                     <th data-column-id="RU" data-formatter="isCurrentUserRuCode">Серія, номер документу</th>
                     <th data-column-id="RUCode" data-visible='false'>Підгрупи, до яких належить</th>
-                    <th data-column-id="Address1Composite">Наявність  анкети та дата її заповнення</th>
+                    <th data-column-id="Address1Composite">Наявність анкети та дата її заповнення</th>
                     <th data-column-id="Telephone1">Посада на основному місці роботи</th>
                     <!--<th data-column-id="CorpMainContact">Керівник</th>-->
                     <th data-column-id="CorpBusinessWay">Підстави (Підгрупи) додаткових ознак</th>
