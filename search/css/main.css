@@ -465,3 +465,10 @@ body {
 .form-container .form-wrapper .forms .form .btns-cont .btn-protocol {
   background: #FF585D;
 }
+
+.form-container .btn-outline {
+  background: #F7F7F7;
+  color: #C1C1C1;
+  border: 1px solid #C1C1C1;
+  border-radius: 0;
+}
