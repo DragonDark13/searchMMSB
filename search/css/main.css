@@ -251,12 +251,12 @@ body {
   background-size: contain;
 }
 
-.form-container .form-wrapper .forms .form .btns-cont {
+.form-container .form-wrapper .forms .btns-cont {
   margin-top: 30px;
   position: relative;
 }
 
-.form-container .form-wrapper .forms .form .btns-cont button {
+.form-container .form-wrapper .forms .btns-cont button {
   display: none;
   width: 125px;
   font-size: 14px;
@@ -273,16 +273,16 @@ body {
   transition: all 0.2s;
 }
 
-.form-container .form-wrapper .forms .form .btns-cont button:not([disabled=disabled]):hover {
+.form-container .form-wrapper .forms .btns-cont button:not([disabled=disabled]):hover {
   color: #000;
   background-color: #dce123;
 }
 
-.form-container .form-wrapper .forms .form .btns-cont button.active {
+.form-container .form-wrapper .forms .btns-cont button.active {
   display: inline-block;
 }
 
-.form-container .form-wrapper .forms .form .btns-cont button.disabled {
+.form-container .form-wrapper .forms .btns-cont button.disabled {
   color: #fff;
   background-color: #808285;
   pointer-events: none;
